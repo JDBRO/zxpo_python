@@ -1,0 +1,15 @@
+git clone https://user@github.com/zxpo/zxpo_python.git
+--global user level
+--system system level
+no para warehouse level
+git config -e workdir/.git/config
+git config -e --global open ~/.gitconfig
+git config -e --system open /etc
+git config --global user.name "zxpo"
+git config --global user.email 102-157@163.com
+git config --global alias.st status
+git config --global alias.ci commit
+git config --global alias.co checkout
+git config --global alias.br branch
+git config --global color.ui true
+
